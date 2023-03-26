@@ -1,14 +1,13 @@
 # NumberTOWordConversion-problem-in-js-
 ## This program will convert any number to word
 
-
+```javascript
 import promptSync from "prompt-sync";
 const prompt = promptSync();
 
 const numberToWordConversion = (num) => {                         //parent Function for number to word conversion
 
   // Below child functions for different number of digit conversions
-<code>
   const twoDigitConverter = (n) => {
     let wordOfTwoDigit;
     for (let index = 0; index <= 99; index++) {
@@ -378,4 +377,4 @@ const numberToWordConversion = (num) => {                         //parent Funct
 const nm = prompt("Enter a number to convert in Word: ");
 let word = numberToWordConversion(nm);
 console.log(word);
-</code>
+```
